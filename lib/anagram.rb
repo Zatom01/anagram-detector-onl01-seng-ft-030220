@@ -21,7 +21,7 @@ class Anagram
       if final_sorted_word==letter_arr
         return match_arr << ele 
       else 
-        return letter_arr.clear
+        return letter_arr=[]
       end
         
     end
